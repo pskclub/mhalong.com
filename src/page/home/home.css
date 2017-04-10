@@ -1,0 +1,30 @@
+.home-wrapper header {
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url("./bg_head.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 90px;
+  text-align: center; }
+
+.home-wrapper a, .home-wrapper a:active, .home-wrapper a:hover, .home-wrapper a:visited {
+  text-decoration: none; }
+
+.home-wrapper a:focus {
+  outline: 0 auto -webkit-focus-ring-color;
+  text-decoration: none; }
+
+.home-wrapper .container {
+  min-height: 100%; }
+
+.home-wrapper h1 {
+  color: #ff4641;
+  width: 100%;
+  height: auto;
+  top: 45%;
+  left: 0;
+  position: absolute;
+  font-size: 5em; }
