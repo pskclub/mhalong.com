@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../../components/navbar'
-import  './home.css'
+// import  './home.css'
 
 
 export default class extends Component {
