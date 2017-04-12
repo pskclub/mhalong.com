@@ -1,0 +1,23 @@
+.notfound-wrapper {
+  text-align: center; }
+
+.notfound-wrapper header {
+  background: url(../../../public/bg_head.png) repeat center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh; }
+
+.notfound-wrapper a, .notfound-wrapper a:active, .notfound-wrapper a:hover, .notfound-wrapper a:visited {
+  text-decoration: none; }
+
+.notfound-wrapper a:focus {
+  outline: 0 auto -webkit-focus-ring-color;
+  text-decoration: none; }
+
+.notfound-wrapper .detail h1.big {
+  margin-top: 25vh;
+  color: white; }
+
+.notfound-wrapper .detail a {
+  margin-top: 20px;
+  font-size: 1.2em; }

@@ -59,7 +59,7 @@
 .navbar-wrapper nav > a > img.logo {
   max-width: 100%; }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .navbar-wrapper nav {
     padding-top: 20px;
     padding-bottom: 10px; }
@@ -83,11 +83,13 @@
     padding-right: 20px;
     padding-left: 20px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 990px) {
   .navbar-wrapper nav {
     padding-top: 51px;
     padding-bottom: 41px; }
   .navbar-wrapper nav > a > img.logo {
     float: left; }
   .navbar-wrapper .nav-extra {
-    float: right; } }
+    float: right; }
+  .navbar-wrapper .button-mywall {
+    margin-left: 5px; } }
