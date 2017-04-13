@@ -56,7 +56,6 @@
 .contact-wrapper ul.social li {
   display: inline-block;
   list-style-type: none;
-  float: left;
   border-radius: 10px;
   min-width: 50px;
   margin-bottom: 15px; }
@@ -66,4 +65,5 @@
   color: white; }
 
 .contact-wrapper .dl-horizontal > dd > a {
-  color: white; }
+  color: white;
+  word-wrap: break-word; }

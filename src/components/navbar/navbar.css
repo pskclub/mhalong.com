@@ -2,56 +2,61 @@
   /*for mobile*/
   /*for desktop*/ }
 
-.navbar-wrapper .a, .navbar-wrapper a:active, .navbar-wrapper a:hover, .navbar-wrapper a:visited {
-  text-decoration: none; }
-
-.navbar-wrapper a:focus {
-  outline: 0 auto -webkit-focus-ring-color;
-  text-decoration: none; }
-
-.navbar-wrapper .wall {
-  font-size: 17px;
-  padding: 5px 30px; }
-
 .navbar-wrapper .nav-extra {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-.navbar-wrapper .button-mywall {
+.navbar-wrapper .nav-extra ul {
+  padding: 0;
+  margin: auto; }
+
+.navbar-wrapper .nav-extra ul li {
+  display: inline;
+  list-style-type: none; }
+
+.navbar-wrapper .nav-extra ul li .a, .navbar-wrapper .nav-extra ul li a:active, .navbar-wrapper .nav-extra ul li a:hover, .navbar-wrapper .nav-extra ul li a:visited {
+  text-decoration: none; }
+
+.navbar-wrapper .nav-extra ul li a:focus {
+  outline: 0 auto -webkit-focus-ring-color;
+  text-decoration: none; }
+
+.navbar-wrapper .nav-extra ul li .button-mywall {
   background: #EC0856;
   color: #FFF;
   border-radius: 30px;
   font-weight: 400;
   font-size: 22px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   line-height: 58px;
-  margin-bottom: 10px;
   text-align: center;
   -webkit-transition: all .5s;
   transition: all .5s;
   text-decoration: none; }
 
-.navbar-wrapper .button-mywall:active, .navbar-wrapper .button-mywall:hover {
+.navbar-wrapper .nav-extra ul li .button-mywall:active, .navbar-wrapper .nav-extra ul li .button-mywall:hover {
   color: #FFF;
   background: #202648;
   border-color: rgba(255, 255, 255, 0.3); }
 
-.navbar-wrapper .button-mywall:focus {
+.navbar-wrapper .nav-extra ul li .button-mywall:focus {
   color: #FFF; }
 
-.navbar-wrapper .button-mywall {
+.navbar-wrapper .nav-extra ul li .button-mywall {
   background: rgba(236, 8, 86, 0);
   /*border: 2px solid #2ECC6E;*/ }
 
-.navbar-wrapper .button-mywall:active, .navbar-wrapper .button-mywall:hover {
+.navbar-wrapper .nav-extra ul li .button-mywall:active, .navbar-wrapper .nav-extra ul li .button-mywall:hover {
   color: #FFF;
   background: #2ECC6E;
   border-color: #2ECC6E; }
 
-.navbar-wrapper .button-mywall.active {
+.navbar-wrapper .nav-extra ul li .button-mywall.active {
   color: #FFF;
   background: #2ECC6E;
   border-color: #2ECC6E; }
@@ -62,26 +67,16 @@
 @media (max-width: 990px) {
   .navbar-wrapper nav {
     padding-top: 20px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    text-align: center; }
   .navbar-wrapper nav > a > img.logo {
     margin-bottom: 15px; }
-  .navbar-wrapper .nav-extra {
-    width: 100%;
-    /* Firefox */
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-align: center;
-    /* Safari and Chrome */
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    /* W3C */
-    display: box;
-    box-pack: center;
-    box-align: center; }
-  .navbar-wrapper .button-mywall {
-    padding-right: 20px;
-    padding-left: 20px; } }
+  .navbar-wrapper .nav-extra ul li .button-mywall {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-size: 1.3em; } }
 
 @media (min-width: 990px) {
   .navbar-wrapper nav {
@@ -90,6 +85,4 @@
   .navbar-wrapper nav > a > img.logo {
     float: left; }
   .navbar-wrapper .nav-extra {
-    float: right; }
-  .navbar-wrapper .button-mywall {
-    margin-left: 5px; } }
+    float: right; } }

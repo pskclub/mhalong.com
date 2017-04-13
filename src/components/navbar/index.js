@@ -16,12 +16,20 @@ export default class extends Component {
                         <img className="logo" src={logo}/>
                     </a>
                     <div className="nav-extra">
-                        <NavLink className="hireme button-mywall" to="/"  activeClassName="active" exact>HOME</NavLink>
-                        <NavLink className="hireme button-mywall" to="/works"  activeClassName="active">WORKS</NavLink>
+                        <ul>
+                            <li>   <NavLink className="hireme button-mywall" to="/"  activeClassName="active" exact>HOME</NavLink></li>
+                            <li>       <NavLink className="hireme button-mywall" to="/works"  activeClassName="active">WORKS</NavLink></li>
+                            <li>       <NavLink className="hireme button-mywall" to="/biography"  activeClassName="active">BIOGRAPHY</NavLink></li>
+                            <li>      <a className="hireme button-mywall" href="https://blog.mhalong.com" target="_blank">BLOG</a></li>
+                            <li>      <NavLink className="hireme button-mywall" to="/contact"  activeClassName="active">CONTACT</NavLink></li>
+                        </ul>
+
+
+                     {/*   <NavLink className="hireme button-mywall" to="/works"  activeClassName="active">WORKS</NavLink>
                         <NavLink className="hireme button-mywall" to="/biography"  activeClassName="active">BIOGRAPHY</NavLink>
                         <a className="hireme button-mywall" href="https://blog.mhalong.com" target="_blank">BLOG</a>
-                        {/*<NavLink className="hireme button-mywall" to="/about" activeClassName="active">ABOUT</NavLink>*/}
-                        <NavLink className="hireme button-mywall" to="/contact"  activeClassName="active">CONTACT</NavLink>
+                        <NavLink className="hireme button-mywall" to="/about" activeClassName="active">ABOUT</NavLink>
+                        <NavLink className="hireme button-mywall" to="/contact"  activeClassName="active">CONTACT</NavLink>*/}
                     </div>
                 </nav>
             </div>

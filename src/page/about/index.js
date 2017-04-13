@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 import Navbar from "../../components/navbar";
-import profileImg from "./profile.jpg";
+import profileImg from "../../../public/profile.jpg";
 import "./about.css";
 
 
@@ -42,6 +42,16 @@ export default class extends Component {
                                     <li>
                                         <a href="https://twitter.com/passakon_p" target="_blank">
                                             <i className="fa fa-twitter-square fa-3x" aria-hidden="true"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://steamcommunity.com/id/pskclub/" target="_blank">
+                                            <i className="fa fa-steam-square fa-3x" aria-hidden="true"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/pskclub/" target="_blank">
+                                            <i className="fa fa-instagram fa-3x" aria-hidden="true"/>
                                         </a>
                                     </li>
                                 </ul>
