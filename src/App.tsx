@@ -6,7 +6,7 @@ const App: Component = () => {
 
   return (
     <div class={'font-bold text-xl h-full'}>
-      <div class={'relative min-h-full flex flex-col items-center justify-center py-8'}>
+      <div class={'relative min-h-full flex flex-col items-center justify-center py-8 z-10'}>
         <img src="/cover.webp" alt="" class={'h-full object-cover w-full absolute -z-10 opacity-20'}/>
         <div class={'h-full w-full absolute bg-gradient-to-b from-secondary to-transparent'}></div>
         <div class={'z-10 px-2'}>
